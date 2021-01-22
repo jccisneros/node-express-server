@@ -1,4 +1,4 @@
-import hbs from 'hbs';
+const hbs = require('hbs');
 
 hbs.registerHelper('getAnio', () => {
   return new Date().getFullYear()
